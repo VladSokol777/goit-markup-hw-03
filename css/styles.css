@@ -50,6 +50,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding-left: 156px;
 }
 .logo-part {
   color: #2e2f42;
@@ -74,6 +75,8 @@ img {
 }
 .address {
   font-style: normal;
+  padding: 24px 0;
+  padding-left: 332px;
 }
 .menu-address {
   display: flex;
@@ -94,6 +97,7 @@ img {
 
 /* hero image */
 .container {
+  width: 1440px;
 }
 .hero-image {
   background-color: #2e2f42;
