@@ -24,13 +24,14 @@ img {
   display: block;
 }
 /* header */
+
 .container {
-  width: 1128px;
-  margin: auto;
-  padding: 0 15px;
 }
 .header-container {
   border-bottom: 1px solid #e7e9fc;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-menu {
@@ -58,9 +59,10 @@ img {
   display: flex;
   gap: 40px;
 }
-.header-item-menu li {
+.item-menu {
   padding: 24px 0;
 }
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
