@@ -79,8 +79,6 @@ img {
   display: flex;
   gap: 40px;
 }
-.menu-address {
-}
 
 .address-link {
   font-weight: 400;
@@ -95,8 +93,11 @@ img {
 }
 
 /* hero image */
+.container {
+}
 .hero-image {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .main-page-title {
@@ -106,6 +107,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 .btn {
   font-family: "Roboto", sans-serif;
@@ -116,6 +118,11 @@ img {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .btn:hover,
 .btn:focus {
