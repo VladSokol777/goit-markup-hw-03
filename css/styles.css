@@ -24,19 +24,18 @@ img {
   display: block;
 }
 /* header */
-
-.container {
-}
-.header-container {
+.header {
   border-bottom: 1px solid #e7e9fc;
+}
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
-
-.header-menu {
+.header-container {
   display: flex;
 }
+
 .nav-menu {
   display: flex;
   align-items: center;
@@ -55,11 +54,9 @@ img {
 .logo-part {
   color: #2e2f42;
 }
-.header-item-menu {
+.item-menu {
   display: flex;
   gap: 40px;
-}
-.item-menu {
   padding: 24px 0;
 }
 
@@ -81,8 +78,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.header-item-menu-address li {
-  padding: 24px 0;
+.menu-address {
 }
 
 .address-link {
