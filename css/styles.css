@@ -74,7 +74,7 @@ img {
 .address {
   font-style: normal;
 }
-.header-item-menu-address {
+.menu-address {
   display: flex;
   gap: 40px;
 }
