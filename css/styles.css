@@ -28,11 +28,9 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
-  width: 1158px;
+  width: 1128px;
   margin: 0 auto;
   padding: 0 15px;
-}
-.header-container {
   display: flex;
 }
 
@@ -156,7 +154,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8pxw;
+  margin-bottom: 8px;
 }
 .page-descr {
   font-weight: 400;
