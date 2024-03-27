@@ -27,7 +27,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.container {
+.header-container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -136,15 +136,27 @@ img {
   background-color: #404bbf;
 }
 /* team-work section 2 */
-.feature {
+.section-feature {
+  padding: 120px 0;
 }
-
+.feature {
+  visibility: hidden;
+}
+.item-menu-descr {
+  display: flex;
+  gap: 24px;
+  margin: 120px 156px;
+}
+.item-menu-descr li {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
 .page-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8pxw;
 }
 .page-descr {
   font-weight: 400;
