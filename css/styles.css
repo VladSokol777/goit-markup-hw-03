@@ -28,7 +28,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
-  width: 1128px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
@@ -145,7 +145,7 @@ img {
   gap: 24px;
   margin: 120px 156px;
 }
-.item-menu-descr li {
+.item-menu-descr-list {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .page-title {
