@@ -8,7 +8,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 a {
@@ -23,6 +24,7 @@ ol {
 img {
   display: block;
 }
+
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -34,11 +36,13 @@ img {
 }
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 /* logo */
 .logo {
@@ -50,7 +54,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  padding-left: 156px;
 }
 .logo-part {
   color: #2e2f42;
@@ -75,8 +78,6 @@ img {
 }
 .address {
   font-style: normal;
-  padding: 24px 0;
-  padding-left: 332px;
 }
 .menu-address {
   display: flex;
@@ -110,7 +111,7 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  margin-left: 472px;
+  margin: auto;
 }
 .btn {
   font-family: "Roboto", sans-serif;
@@ -126,7 +127,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
-  margin-left: 636px;
+  margin: auto;
   margin-top: 48px;
 }
 .btn:hover,
@@ -154,7 +155,6 @@ img {
 .item-menu-descr {
   display: flex;
   gap: 24px;
-  margin: 120px 156px;
 }
 .item-menu-descr-list {
   flex-basis: calc((100% - 3 * 24px) / 4);
